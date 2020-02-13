@@ -229,8 +229,8 @@
             }
           ]
         },
-        "availabilitySet": {
-          "id": "[resourceId('Microsoft.Compute/availabilitySets', parameters('availabilitySetName'))]"
+  //      "availabilitySet": {
+  //        "id": "[resourceId('Microsoft.Compute/availabilitySets', parameters('availabilitySetName'))]"
         },
         "diagnosticsProfile": {
           "bootDiagnostics": {
